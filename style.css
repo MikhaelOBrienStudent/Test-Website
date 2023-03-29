@@ -4,10 +4,7 @@ html {
   
 body {
   background-color: rgba(97, 167, 187, 0.458);
-  min-width: 90%;
-  max-width: fit-content;
-  min-height: 90%;
-  max-height: fit-content;
+
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: auto;
