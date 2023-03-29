@@ -1,43 +1,60 @@
-html {
-    background-color: #22447b;
-  }
-  
-body {
-  width: 90%;
-  height: 90%;
+html, body{
+  margin: 0;
 }
 
+html {
+  height: 100vh;
+  background-color: #22447b;
+}
+
+body {
+  height: 100vh;
+  display:flex;
+}
+
+
 .mainContent {
-  position: absolute;
-  align-self: center;
+  width: 97.5%;
+  
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  margin: 3vh;
+
+  align-self: stretch;
+  align-content: stretch;
+  justify-content: center;
+  
+  padding: 15px;
   background-color: rgba(97, 167, 187, 0.458);
-  width: 100%;
-  height: fit-content;
+}
 
+.header {
+  background-color: rgba(125, 227, 255, 0.3);
+  display:block;
+  margin-bottom: 15px;
+  padding:10px;
+}
 
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+.content {
+  background-color: rgb(0, 0, 0);
+  display:block;
+  height:fit-content;
+  flex:content;
+}
 
-  padding: 5px;
-
-  overflow: scroll;
+.footer {
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding: 10px;
+  background-color: rgba(128, 227, 255, 0.3);
+  display: block;
 }
   
 iframe {
   border-width: 0;
   border-style: none;
-  padding: 10px;
-  
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-
-  height: fit-content;
-  width: fit-content;
-
-  align-self: center;
-  align-content:center;
+  height: 100%;
+  width: 100%;
 }
