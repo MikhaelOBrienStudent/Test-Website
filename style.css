@@ -3,23 +3,36 @@ html {
   }
   
 body {
-  background-color: rgba(97, 167, 187, 0.458);
+  margin: 30px;
+  max-height: 100%;
+}
 
-  margin-top: 20px;
-  margin-bottom: 20px;
+.mainContent {
+  position: static;
+  background-color: rgba(97, 167, 187, 0.458);
+  
+  min-height: 100px;
+
+  width: 100%;
+  height:500px;
+
+
   margin-left: auto;
   margin-right: auto;
-  padding: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  padding: 5px;
+
+  overflow: scroll;
 }
   
 iframe {
   border-width: 0;
   border-style: none;
-  min-width: fit-content;
-  min-height: fit-content;
-  max-width: 95%;
-  max-height: 95%;
   padding: 0;
   margin: 0%;
-  align-content: stretch;
+  height: 95%;
+  width: 95%;
+  align-self:center;
 }
