@@ -2,21 +2,23 @@ html {
     background-color: #22447b;
   }
   
-  body {
-    background-color: rgba(97, 167, 187, 0.458);
-    min-width: 90%;
-    max-width: fit-content;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-  }
+body {
+  background-color: rgba(97, 167, 187, 0.458);
+  min-width: 90%;
+  max-width: fit-content;
+  min-height: 90%;
+  max-height: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
   
-  label:not(.inline) {
-    display: block;
-  }
-  
-  .inline {
-    width: unset;
-  }
+iframe {
+  border-width: 0;
+  min-width: fit-content;
+  min-height: fit-content;
+  max-width: 95%;
+  max-height: 95%;
+}
